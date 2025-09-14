@@ -3,7 +3,7 @@ import logo from "../../assets/images/logo.png";
 const Navbar = () => {
   return (
     <div>
-      <div className="navbar bg-base-100 shadow-sm">
+      <div className="navbar bg-base-100 mt-2">
         <div className="navbar-start">
           <div className="dropdown">
             <div tabIndex={0} role="button" className="btn btn-ghost lg:hidden">
@@ -20,17 +20,17 @@ const Navbar = () => {
                 <a>Fixture</a>
               </li>
               <li>
-                <a>Team</a>
+                <a>Teams</a>
               </li>
               <li>
                 <a>Schedules</a>
               </li>
             </ul>
           </div>
-          <img className="hidden lg:block w-16 h-16" src={logo} alt="" />
+          <img src={logo} className="hidden lg:block w-12 h-12" alt="" />
         </div>
         <div className="navbar-end lg:flex">
-          <ul className="menu menu-horizontal px-1 gap-4 flex items-center">
+          <ul className="menu menu-horizontal px-1 flex items-center">
             <li>
               <a>Home</a>
             </li>
@@ -38,13 +38,13 @@ const Navbar = () => {
               <a>Fixture</a>
             </li>
             <li>
-              <a>Team</a>
+              <a>Teams</a>
             </li>
             <li>
               <a>Schedules</a>
             </li>
             <div>
-              <a className="border border-gray-200 px-4 py-2 rounded-lg font-bold">0 coin</a>
+              <a className="px-4 py-2 border border-gray-200 rounded-lg">0 coin</a>
             </div>
           </ul>
         </div>
