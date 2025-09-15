@@ -1,4 +1,5 @@
-import Card from '../../Components/Card/Card';
+import Banner from '../../Components/Banner/Banner';
+import Footer from '../../Components/Footer/Footer';
 import Header from '../../Components/Header/Header';
 import Main from '../../Components/MainSection/Main';
 import Navbar from '../../Components/Navbar/Navbar';
@@ -9,6 +10,8 @@ const Home = () => {
             <Navbar></Navbar>
             <Header></Header>
             <Main></Main>
+            <Banner className=""></Banner>
+            <Footer></Footer>
         </div>
     );
 };
