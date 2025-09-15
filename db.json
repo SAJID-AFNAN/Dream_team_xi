@@ -1,0 +1,124 @@
+{
+  "users": [
+    {
+      "id": 1,
+      "name": "Ben Stokes",
+      "country": "England",
+      "type": "All-rounder",
+      "image": "https://i.pinimg.com/originals/a5/3d/1f/a53d1f732198616e304092cc314fe0ec.jpg",
+      "price":1700000
+    },
+    {
+      "id": 2,
+      "name": "Shakib Al Hasan",
+      "country": "Bangladesh",
+      "type": "All-rounder",
+      "image": "https://wallpapers.com/images/hd/shakib-al-hasan-smiling-8olow941lckcha6b.jpg",
+      "price":1800000
+    },
+    {
+      "id": 3,
+      "name": "Hardik Pandya",
+      "country": "India",
+      "type": "All-rounder",
+      "image": "https://staticg.sportskeeda.com/editor/2023/01/394f7-16727679846977-1920.jpg",
+      "price":1200000
+    },
+    {
+      "id": 4,
+      "name": "Jacques Kallis",
+      "country": "South Africa",
+      "type": "All-rounder",
+      "image": "https://www.the-sun.com/wp-content/uploads/sites/6/2023/10/pd_JACQUESKALLIS-OP.jpg?strip=all&amp;quality=100&amp;w=1920&amp;h=1080&amp;crop=1",
+      "price":1300000
+    },
+    {
+      "id": 5,
+      "name": "Chris Gayle",
+      "country": "West Indies",
+      "type": "Batsman",
+      "image": "https://img.olympics.com/images/image/private/t_s_pog_staticContent_hero_xl_2x/f_auto/primary/oe98di4g2yjfw7s4xxk1",
+      "price":2000000
+    },
+    {
+      "id": 6,
+      "name": "Virat Kohli",
+      "country": "India",
+      "type": "Batsman",
+      "image": "https://wallpapercave.com/wp/wp6864984.jpg",
+      "price":2100000
+    },
+    {
+      "id": 7,
+      "name": "Ricky Ponting",
+      "country": "Australia",
+      "type": "Batsman",
+      "image": "https://technosports.co.in/wp-content/uploads/2023/06/ric4-1920x1080.jpg",
+      "price":2000000
+    },
+    {
+      "id": 8,
+      "name": "Steve Smith",
+      "country": "Australia",
+      "type": "Batsman",
+      "image": "https://wallpaperaccess.com/full/2350702.jpg",
+      "price":1900000
+    },
+    {
+      "id": 9,
+      "name": "Morne Morkel",
+      "country": "South Africa",
+      "type": "Bowler",
+      "image": "https://www.wisden.com/static-assets/waf-images/cd/89/d5/16-9/UvBsR1GbJS.png?v=23.06&w=1920",
+      "price":1400000
+    },
+    {
+      "id": 10,
+      "name": "Jasprit Bumrah",
+      "country": "India",
+      "type": "Bowler",
+      "image": "https://img-cdn.thepublive.com/fit-in/1920x1080/filters:format(webp)/wion/media/post_attachments/files/2022/10/01/300341-bumrah-india-injury.png",
+      "price":1400000
+    },
+    {
+      "id": 11,
+      "name": "Mitchell Starc",
+      "country": "Australia",
+      "type": "Bowler",
+      "image": "https://cdn-wp.thesportsrush.com/2016/08/mitchell_starc-1920x1080.jpg?w=3840&q=60",
+      "price":1500000
+    },
+    {
+      "id": 12,
+      "name": "Shane Warne",
+      "country": "Australia",
+      "type": "Bowler",
+      "image": "https://wordpresscdn.winzogames.com/prod/blog/wp-content/uploads/2024/12/11060752/Shane-Warne-1920x1080.jpg",
+      "price":1800000
+    },
+    {
+      "id": 13,
+      "name": "Kane Williamson",
+      "country": "New Zealand",
+      "type": "Batsman",
+      "image": "https://e2.365dm.com/22/06/1920x1080/skysports-pa-kane-williamson_5814705.jpg?20220625163538",
+      "price":1750000
+    },
+    {
+      "id": 14,
+      "name": "Dwayne Bravo",
+      "country": "West Indies",
+      "type": "All-rounder",
+      "image": "https://onecricketnews.akamaized.net/parth-editor/oc-dashboard/news-images-prod/1725350208457_Untitled%20(13).jpg?type=mq",
+      "price":1400000
+    },
+    {
+      "id": 15,
+      "name": "Ravindra Jadeja",
+      "country": "India",
+      "type": "All-rounder",
+      "image": "https://www.hdwallpapers.in/download/ravindra_jadeja_chennai_super_kings_2020_cricket_hd_sports-1920x1080.jpg",
+      "price":1100000
+    }
+  ]
+}

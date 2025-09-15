@@ -1,5 +1,6 @@
 import Card from '../../Components/Card/Card';
 import Header from '../../Components/Header/Header';
+import Main from '../../Components/MainSection/Main';
 import Navbar from '../../Components/Navbar/Navbar';
 
 const Home = () => {
@@ -7,7 +8,7 @@ const Home = () => {
         <div className='px-24'>
             <Navbar></Navbar>
             <Header></Header>
-            <Card></Card>
+            <Main></Main>
         </div>
     );
 };
