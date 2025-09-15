@@ -1,7 +1,7 @@
 
 const Banner = () => {
   return (
-    <div>
+    <div className="absolute w-full top-816 max-w-6xl">
       <div className=" border border-gray-400 rounded-xl md:max-w-4xl mx-auto px-5 py-4">
         <div className="md:max-w-4xl m h-72 mx-auto rounded-2xl p-8 text-center  md:flex md:flex-col items-center justify-center bg-gradient-to-r from-blue-100 via-white to-yellow-100">
           <h2 className="text-2xl font-bold mb-2">

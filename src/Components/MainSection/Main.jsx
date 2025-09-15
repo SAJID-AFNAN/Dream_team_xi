@@ -10,7 +10,7 @@ const Main = () => {
       .then((data) => setData(data));
   }, []);
   return (
-    <div className="py-24">
+    <div className="pt-24 pb-40">
       <div className="flex justify-between items-center">
         <h2 className="text-xl font-bold">Available Players</h2>
         <div className="border border-gray-300 rounded-lg font-medium">
