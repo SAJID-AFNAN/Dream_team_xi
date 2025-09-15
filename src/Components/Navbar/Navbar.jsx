@@ -1,6 +1,7 @@
 import logo from "../../assets/images/logo.png";
 
-const Navbar = () => {
+const Navbar = ({addCoin}) => {
+  console.log(addCoin);
   return (
     <div>
       <div className="navbar bg-base-100 mt-2">
@@ -44,7 +45,7 @@ const Navbar = () => {
               <a>Schedules</a>
             </li>
             <div>
-              <a className="px-4 py-2 border border-gray-200 rounded-lg">0 coin</a>
+              <a className="px-4 py-2 border border-gray-200 rounded-lg">{addCoin} coin</a>
             </div>
           </ul>
         </div>

@@ -1,7 +1,16 @@
 import image from "../../assets/images/bg-shadow.png";
 import banner from "../../assets/images/banner-main.png";
+import { useState } from "react";
 
-const Header = () => {
+const Header = ({ setAddCoin }) => {
+  const [sum, setSum] = useState(0);
+  const handleAddCoin = () => {
+    const newSum = sum + 1700000
+    setSum(newSum)
+    console.log(newSum);
+    setAddCoin(newSum);
+  };
+
   return (
     <div>
       <div
@@ -20,7 +29,10 @@ const Header = () => {
           </p>
 
           <div className="border border-yellow-400 px-1 py-1 rounded-lg">
-            <button className="bg-[#E7FE29] px-4 py-2 rounded-lg text-black font-medium border  ">
+            <button
+              onClick={() => handleAddCoin()}
+              className="btn bg-[#E7FE29] px-4 py-2 rounded-lg text-black font-medium border  "
+            >
               Claim Free Credit
             </button>
           </div>
